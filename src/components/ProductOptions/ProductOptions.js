@@ -20,7 +20,7 @@ const ProductOptions = props => {
       console.log('Summary');
       console.log('=========');
       console.log('Name:', props.title);
-      console.log('Price:', props.getPrice());
+      console.log('Price:', props.getPrice);
       console.log('Size:', props.currentSize.name);
       console.log('Color:', props.currentColor);
     }}>
